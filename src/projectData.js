@@ -1,6 +1,6 @@
 import smartInvesting from '../src/assets/smartinvesting.png';
 import cryptoApp from '../src/assets/cryptoapp.png';
-import todoList from '../src/assets/todo List.png';
+import todoList from '../src/assets/todoList.png';
 import calculator from '../src/assets/calculator.png';
 
 
