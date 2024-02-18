@@ -13,10 +13,10 @@ const Techtools = () => {
          whileInView={{opacity: 1, transform: "translateY(0)"}} 
          transition={{duration : 0.5}}>
           <div className="card">
-            <div className="front">
+            <div className="face front">
               <h2>Basic<br/>Languages</h2>
             </div>
-            <div className="back">
+            <div className="face back">
               <div className="skill">
                 <h5 >HTML</h5>
                 <h5 >CSS/SCSS</h5>
@@ -31,14 +31,14 @@ const Techtools = () => {
         whileInView={{opacity: 1, transform: "translateY(0)"}} 
         transition={{duration : 0.7}}>
           <div className="card">
-            <div className="front">
+            <div className="face front">
               <h2>Major<br/>Libraries/Frameworks</h2>
             </div>
-            <div className="back">
+            <div className="face back">
               <div className="skill">
-                <h5>React JS</h5>
+                <h5>ReactJS</h5>
                 <h5>Redux</h5>
-                <h5>Tailwind CSS</h5>
+                <h5>TailwindCSS</h5>
                 <h5>PostgreSQL</h5>
               </div>
             </div>
@@ -49,10 +49,10 @@ const Techtools = () => {
         whileInView={{opacity: 1, transform: "translateY(0)"}} 
         transition={{duration : 0.8}}>
           <div className="card">
-            <div className="front">
+            <div className="face front">
               <h2>Minor<br/>Libraries/Frameworks</h2>
             </div>
-            <div className="back">
+            <div className="face back">
               <div className="skill">
                 <h5>Bootstrap</h5>
                 <h5>Chakra UI</h5>
@@ -67,10 +67,10 @@ const Techtools = () => {
         whileInView={{opacity: 1, transform: "translateY(0)"}} 
         transition={{duration : 0.9}}>
           <div className="card">
-            <div className="front">
+            <div className="face front">
               <h2>Tools</h2>
             </div>
-            <div className="back">
+            <div className="face back">
               <div className="skill">
                 <h5>VS Code</h5>
                 <h5>Bootstrap</h5>

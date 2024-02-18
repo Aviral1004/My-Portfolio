@@ -14,7 +14,7 @@ const Contact = () => {
   
   const notify = () => {
     if (emailRef.current.value === "" || areaRef.current.value === "") {
-      toast.error("Please feel your details :(");
+      toast.error("Please fill your details");
     }
     else if (emailRef.current.value || areaRef.current.value) {
       toast.success("Thanks for reaching out :)");
@@ -50,12 +50,12 @@ const Contact = () => {
             <label className='formLabel'>Your Message</label>
             <textarea className='textArea' ref={areaRef} placeholder='Enter your message' name="message" required />
             <input className={clicked ? "formBtn click" : "formBtn"} type="submit" onClick={notify} value="Send Message" />
-            <ToastContainer />
+            <ToastContainer style={{width:"70vw", height:"10vh", marginTop:"-2rem"}} position='top-left' autoClose={1000} />
           </motion.form>
           <motion.div className="contactImgDiv" 
           initial = {{opacity: 0, scale: 0}} 
           whileInView={{opacity: 1, scale : 1}} 
-          transition={{duration: 2}}>
+          transition={{duration: 1}}>
             <dotlottie-player src="https://lottie.host/78c7c984-cc26-432c-85de-9381527ce47d/tLs6FervyW.json" background="transparent" speed="1" style={{width: "90%", height: "135%"}} loop autoplay></dotlottie-player>
           </motion.div>
         </div>

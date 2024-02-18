@@ -9,7 +9,7 @@ const projectData = [
       "title": "Smart Investing",
       "imageSrc": smartInvesting,
       "description": "An e-commerce website with good and interactive responsive web design with notifications shown on adding products to the cart.",
-      "skills": ["JSX", "TailwindCSS", "ReactJS", "ReactJS Libraries", "Redux"],
+      "skills": ["JSX", "TailwindCSS", "ReactJS", "Redux"],
       "demo": "https://smart-investing-e-commerce-app.vercel.app/",
       "source": "https://github.com/Aviral1004/Smart-Investing-E-Commerce-App"
     },
@@ -17,7 +17,7 @@ const projectData = [
       "title": "Crypto Tracker",
       "imageSrc": cryptoApp,
       "description": "This is a crypto tracker app which is made to track the price and  other details of different cryptocurrencies. For this purpose, charts are used to provide past, present and future of the cryptocurrencies.",
-      "skills": ["Chakra UI", "JSX", "ReactJS", "chart-js"],
+      "skills": ["ChakraUI", "JSX", "ReactJS", "chartjs"],
       "demo": "https://crypto-tracker-app-ten-virid.vercel.app/",
       "source": "https://github.com/Aviral1004/Crypto-Tracker-App"
     },

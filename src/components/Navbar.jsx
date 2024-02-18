@@ -61,7 +61,7 @@ const Navbar = () => {
             </motion.li>
           </ul>
         <motion.div id="mobile" onClick={handleClick} 
-        initial={{opacity:"0", transform: "translateY(-50%)"}} 
+        initial={{opacity:"0", transform: "translateY(-50)"}} 
             whileInView={{opacity:"1", transform: "translateY(0)"}} 
             transition={{duration : 0.8, ease:"circInOut"}}>
             <i id='bar' className={clicked ? "fas fa-times" : "fas fa-bars"}></i>
